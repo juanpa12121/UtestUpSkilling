@@ -1,0 +1,19 @@
+Plan de Pruebas Utest
+
+URL: https://utest.com/
+
+Contexto general:
+Con la HU se espera validar que se muestre el botón de Join Today y el mensaje Add your address al estar en el segundo paso del registro
+
+Alcance:
+* Validar que se muestre el botón Join Today al ingresar a la página de Utest
+* Validar que se muestre el mensaje Add your address al dar click en Join Today y pasar al segundo paso
+
+Fuera del alcance:
+Validacion de registro de usuario
+Validacion de logueo
+Validación de cualquier contenido por fuera del alcance
+
+
+Estategia:
+Para las pruebas definidas en el alcance, se usarán pruebas funcionales End to End (automatizadas), de forma que se pueda abarcar todo el funcionamiento del sistema. Usaré herramientas como Selenium, Cucumber, lenguaje Java, lenguaje Gherkin y el patrón de diseño Screenplay.
